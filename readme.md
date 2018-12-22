@@ -197,7 +197,7 @@ Starting from **Node 8.0.0** Async/Await is fully supported. If you're within an
 The promise code from above becomes this
 
 ```JavaScript
-someAsyncFunction = asnyc () => {
+someAsyncFunction = async () => {
     try{
     	await mpv.start();
     	await mpv.load('path/to/video.mkv');
